@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A1F5DFC0-9AF7-4577-BFDF-98E918B5525A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>profac.My.MyApplication</StartupObject>
+    <RootNamespace>profac</RootNamespace>
+    <AssemblyName>profac</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>profac.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>profac.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="coordinaciones.Designer.vb">
+      <DependentUpon>coordinaciones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="coordinaciones.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="facturas.Designer.vb">
+      <DependentUpon>facturas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="facturas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="facturascDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>facturascDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="conseptos.Designer.vb">
+      <DependentUpon>conseptos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="conseptos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="empresas.Designer.vb">
+      <DependentUpon>empresas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="empresas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="seccion.Designer.vb">
+      <DependentUpon>seccion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="seccion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sesion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sesion.Designer.vb">
+      <DependentUpon>sesion.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="coordinaciones.resx">
+      <DependentUpon>coordinaciones.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="facturas.resx">
+      <DependentUpon>facturas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="conseptos.resx">
+      <DependentUpon>conseptos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="empresas.resx">
+      <DependentUpon>empresas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="seccion.resx">
+      <DependentUpon>seccion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sesion.resx">
+      <DependentUpon>sesion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="facturascDataSet.xsc">
+      <DependentUpon>facturascDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="facturascDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>facturascDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="facturascDataSet.xss">
+      <DependentUpon>facturascDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_vector_65_04_473782.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bag_cash_check_credit_icon-icons.com_56601.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3986718-building-company-skyscraper-skyscraper-icon_112969.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2799208-bag-business_99786.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Utilities-01_27090.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search_book_open_search_locate_6178.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\antorcha.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

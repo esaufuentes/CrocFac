@@ -1,0 +1,206 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+profac
+</name>
+</assembly>
+<members>
+<member name="T:profac.My.Resources.Resources">
+<summary>
+  Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+</summary>
+</member>
+<member name="P:profac.My.Resources.Resources.ResourceManager">
+<summary>
+  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+</summary>
+</member>
+<member name="P:profac.My.Resources.Resources.Culture">
+<summary>
+  Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+</summary>
+</member>
+<member name="P:profac.My.Resources.Resources._2799208_bag_business_99786">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:profac.My.Resources.Resources._3986718_building_company_skyscraper_skyscraper_icon_112969">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:profac.My.Resources.Resources.antorcha">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:profac.My.Resources.Resources.bag_cash_check_credit_icon_icons_com_56601">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:profac.My.Resources.Resources.iconfinder_vector_65_04_473782">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:profac.My.Resources.Resources.search_book_open_search_locate_6178">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:profac.My.Resources.Resources.Utilities_01_27090">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:profac.facturascDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:profac.facturascDataSet.conseptosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:profac.facturascDataSet.coordinacionDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:profac.facturascDataSet.empresaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:profac.facturascDataSet.estatusDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:profac.facturascDataSet.facturasDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:profac.facturascDataSet.conseptosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:profac.facturascDataSet.coordinacionRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:profac.facturascDataSet.empresaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:profac.facturascDataSet.estatusRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:profac.facturascDataSet.facturasRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:profac.facturascDataSet.conseptosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:profac.facturascDataSet.coordinacionRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:profac.facturascDataSet.empresaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:profac.facturascDataSet.estatusRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:profac.facturascDataSet.facturasRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:profac.facturascDataSetTableAdapters.conseptosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:profac.facturascDataSetTableAdapters.coordinacionTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:profac.facturascDataSetTableAdapters.empresaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:profac.facturascDataSetTableAdapters.estatusTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:profac.facturascDataSetTableAdapters.facturasTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:profac.facturascDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:profac.facturascDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(profac.facturascDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:profac.facturascDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(profac.facturascDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:profac.facturascDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(profac.facturascDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:profac.facturascDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:profac.facturascDataSetTableAdapters.TableAdapterManager.UpdateAll(profac.facturascDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:profac.facturascDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:profac.facturascDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>

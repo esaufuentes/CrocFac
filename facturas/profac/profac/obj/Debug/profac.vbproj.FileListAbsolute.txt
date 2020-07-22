@@ -1,0 +1,17 @@
+C:\Users\Esau\Desktop\facturas\profac\profac\bin\Debug\profac.exe.config
+C:\Users\Esau\Desktop\facturas\profac\profac\bin\Debug\profac.exe
+C:\Users\Esau\Desktop\facturas\profac\profac\bin\Debug\profac.pdb
+C:\Users\Esau\Desktop\facturas\profac\profac\bin\Debug\profac.xml
+C:\Users\Esau\Desktop\facturas\profac\profac\obj\Debug\profac.vbprojAssemblyReference.cache
+C:\Users\Esau\Desktop\facturas\profac\profac\obj\Debug\profac.Resources.resources
+C:\Users\Esau\Desktop\facturas\profac\profac\obj\Debug\profac.vbproj.GenerateResource.cache
+C:\Users\Esau\Desktop\facturas\profac\profac\obj\Debug\profac.vbproj.CoreCompileInputs.cache
+C:\Users\Esau\Desktop\facturas\profac\profac\obj\Debug\profac.exe
+C:\Users\Esau\Desktop\facturas\profac\profac\obj\Debug\profac.xml
+C:\Users\Esau\Desktop\facturas\profac\profac\obj\Debug\profac.pdb
+C:\Users\Esau\Desktop\facturas\profac\profac\obj\Debug\profac.sesion.resources
+C:\Users\Esau\Desktop\facturas\profac\profac\obj\Debug\profac.facturas.resources
+C:\Users\Esau\Desktop\facturas\profac\profac\obj\Debug\profac.conseptos.resources
+C:\Users\Esau\Desktop\facturas\profac\profac\obj\Debug\profac.coordinaciones.resources
+C:\Users\Esau\Desktop\facturas\profac\profac\obj\Debug\profac.empresas.resources
+C:\Users\Esau\Desktop\facturas\profac\profac\obj\Debug\profac.seccion.resources
